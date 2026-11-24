@@ -2,6 +2,11 @@
 
 An original interactive, full-viewport ASCII / text-mode koi pond rendered on a 2D HTML Canvas (`192 × 60` monospace grid at 1920×1080, 60 fps), with zero external dependencies or asset files.
 
+**Live demo:** https://artem-kaseka.github.io/ascii-koi-pond/  
+**Full 1080p60 MP4 (with synthesized stereo ambience):** [ascii-koi-pond-1080p60.mp4](https://github.com/artem-kaseka/ascii-koi-pond/releases/download/v1.0.0/ascii-koi-pond-1080p60.mp4)
+
+![ASCII Koi Pond](./assets/preview.webp)
+
 ## Highlights
 
 - **Shader-like cell compositor**: `main(x, y, t, pointer) -> { glyph, color }` composites multi-octave water caustics, ripple refraction, submerged koi shadows, 8 articulated Nishikigoi varieties (Kohaku, Showa, Yamabuki Ogon, Tancho, Sanke, Asagi, Benigoi, Shiro Utsuri) with flowing pectoral, pelvic, and forked veiltail fins, floating V-notched lily pads with lotus blossoms that occlude fish swimming underneath, floating food crumbs, and falling rain streaks.
@@ -19,7 +24,7 @@ An original interactive, full-viewport ASCII / text-mode koi pond rendered on a 
 
 ## Running Live
 
-Open `index.html` directly in any modern browser, or serve this folder locally:
+Open [`index.html`](./index.html) directly in any modern browser, or serve this folder locally:
 
 ```bash
 python3 -m http.server 8080
