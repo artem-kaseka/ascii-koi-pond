@@ -1,0 +1,6 @@
+*.mp4
+*.mkv
+*.wav
+stills/
+.tmp_*
+.DS_Store
